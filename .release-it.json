@@ -1,0 +1,12 @@
+{
+  "git": {
+    "commitMessage": "chore: release v${version}"
+  },
+  "plugins": {
+    "release-it-yarn-workspaces": true
+  },
+  "github": {
+    "release": false
+  },
+  "npm": false
+}

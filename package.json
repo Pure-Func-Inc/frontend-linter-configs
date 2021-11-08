@@ -1,0 +1,27 @@
+{
+  "name": "@purefuncinc/frontend-linter-configs",
+  "version": "0.0.0",
+  "description": "Linter config files for front-end development",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Pure-Func-Inc/frontend-linter-configs.git"
+  },
+  "author": "Nelson Liu <nelson@purefunc.net>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": []
+  },
+  "devDependencies": {
+    "eslint": "^7.26.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "release-it": "*",
+    "release-it-yarn-workspaces": "*"
+  }
+}
