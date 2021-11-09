@@ -1,0 +1,23 @@
+{
+  "name": "@purefuncinc/eslint-config-react",
+  "version": "0.0.1",
+  "description": "ESLint config file for projects from PureFunc Inc. using ReactJS",
+  "main": "lib/.eslintrc.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Pure-Func-Inc/frontend-linter-configs.git"
+  },
+  "author": "Nelson Liu <nelson@purefunc.net>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "eslint": "~7.32.0"
+  },
+  "peerDependencies": {
+    "eslint": "~7.32.0"
+  },
+  "dependencies": {
+    "eslint-plugin-react": "^7.26.0",
+    "eslint-plugin-react-hooks": "^4.2.0"
+  }
+}
