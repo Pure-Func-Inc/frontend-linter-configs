@@ -1,6 +1,6 @@
 {
   "name": "@purefuncinc/eslint-config",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "ESLint config file for projects from PureFunc Inc. using TypeScript and JavaScript",
   "main": "lib/.eslintrc.js",
   "repository": {

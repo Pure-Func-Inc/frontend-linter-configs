@@ -1,6 +1,6 @@
 {
   "name": "@purefuncinc/frontend-linter-configs",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Linter config files for front-end development",
   "repository": {
     "type": "git",
