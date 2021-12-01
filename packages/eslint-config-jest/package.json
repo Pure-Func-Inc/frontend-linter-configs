@@ -1,0 +1,22 @@
+{
+  "name": "@purefuncinc/eslint-config-jest",
+  "version": "0.0.3",
+  "description": "ESLint config file for projects from PureFunc Inc. using Jest",
+  "main": "lib/.eslintrc.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Pure-Func-Inc/frontend-linter-configs.git"
+  },
+  "author": "Nelson Liu <nelson@purefunc.net>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "eslint": "~7.32.0"
+  },
+  "peerDependencies": {
+    "eslint": "~7.32.0"
+  },
+  "dependencies": {
+    "eslint-plugin-jest": "^24.4.2"
+  }
+}
