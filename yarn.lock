@@ -179,7 +179,7 @@
   dependencies:
     "@octokit/openapi-types" "^11.2.0"
 
-"@release-it/bumper@^3.0.1":
+"@release-it/bumper@*":
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/@release-it/bumper/-/bumper-3.0.1.tgz#7def6cb576bab03cb28f543afbf66eeff4419fc2"
   integrity sha512-7VUKnTbXUpMUcxw2JCKGScXvbbIzxz+ZqAJqMoEWO0y6Qee+F1Q3tDNm5X5VTcTM17kZnFuKxdz6sNmy9ww5Bg==

@@ -19,7 +19,7 @@ jobs:
         with:
           node-version: 16
           registry-url: https://npm.pkg.github.com/
-      - run: npm ci
+      - run: yarn install --frozen-lockfile
       - name: release-it
         uses: TheRealWaldo/release-it@v0.7.2
         with:
