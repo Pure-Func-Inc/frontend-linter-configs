@@ -16,6 +16,7 @@
     "nohoist": []
   },
   "devDependencies": {
+    "@release-it/bumper": "*",
     "eslint": ">=7.32",
     "eslint-config-standard": "^16",
     "eslint-plugin-import": "^2",
