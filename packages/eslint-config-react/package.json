@@ -1,6 +1,6 @@
 {
   "name": "@purefuncinc/eslint-config-react",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "ESLint config file for projects from PureFunc Inc. using ReactJS",
   "main": "lib/.eslintrc.js",
   "repository": {
@@ -11,10 +11,10 @@
   "license": "MIT",
   "private": false,
   "devDependencies": {
-    "eslint": ">=7.32"
+    "eslint": ">=8"
   },
   "peerDependencies": {
-    "eslint": ">=7.32"
+    "eslint": ">=8"
   },
   "dependencies": {
     "eslint-plugin-react": "^7",
