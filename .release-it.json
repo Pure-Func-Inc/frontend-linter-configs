@@ -3,11 +3,14 @@
     "commitMessage": "chore: release v${version}"
   },
   "plugins": {
-    "release-it-yarn-workspaces": true,
+    "@release-it-plugins/workspaces": true,
     "@release-it/bumper": {
       "in": "package.json",
       "out": "packages/**/package.json"
     }
   },
-  "npm": false
+  "npm": false,
+  "github": {
+    "release": true
+  }
 }

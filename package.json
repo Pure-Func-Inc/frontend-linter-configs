@@ -16,13 +16,16 @@
     "nohoist": []
   },
   "devDependencies": {
+    "@release-it-plugins/workspaces": "*",
     "@release-it/bumper": "*",
     "eslint": ">=8",
-    "eslint-config-standard": "^16",
+    "eslint-config-standard": "^17",
     "eslint-plugin-import": "^2",
     "eslint-plugin-node": "^11",
-    "eslint-plugin-promise": "^5",
-    "release-it": "*",
-    "release-it-yarn-workspaces": "*"
+    "eslint-plugin-promise": "^6",
+    "release-it": "^15.2.0"
+  },
+  "scripts": {
+    "release": "release-it"
   }
 }
